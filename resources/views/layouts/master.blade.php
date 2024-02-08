@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" href="{{asset('assets/images/favicon.ico')}}">
     <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
     <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
-    <meta name="theme-color" content="#e87316">
+    <meta name="theme-color" content="#0077b6">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Surfside Media">
@@ -137,13 +137,13 @@
                                                     </span>
                                                 </div>
                                             </li>
-                                            <li><a href="index.htm" class="nav-link menu-title">Home</a></li>
-                                            <li><a href="shop.html" class="nav-link menu-title">Shop</a></li>
-                                            <li><a href="cart/list.html" class="nav-link menu-title">Cart</a></li>
-                                            <li><a href="about-us.html" class="nav-link menu-title">About Us</a></li>
-                                            <li><a href="contact-us.html" class="nav-link menu-title">Contact Us</a>
+                                            <li><a href="{{route('app.index')}}" class="nav-link menu-title">Home</a></li>
+                                            <li><a href="" class="nav-link menu-title">Shop</a></li>
+                                            <li><a href="" class="nav-link menu-title">Cart</a></li>
+                                            <li><a href="" class="nav-link menu-title">About Us</a></li>
+                                            <li><a href="" class="nav-link menu-title">Contact Us</a>
                                             </li>
-                                            <li><a href="blog.html" class="nav-link menu-title">Blog</a></li>
+                                            <li><a href="" class="nav-link menu-title">Blog</a></li>
                                         </ul>
                                     </div>
                                 </div>
